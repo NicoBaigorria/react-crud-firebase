@@ -49,7 +49,7 @@ const Links = () => {
         }, []);
 
     return <div>
-        <div className="col-md-4 p-2">
+        <div className="p-2">
             <LinkForm {...{addOrEditLink, currentId, links}}/>
         </div>
         <div className="col-md-8 p-2">
